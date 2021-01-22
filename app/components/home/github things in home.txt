@@ -1,0 +1,16 @@
+        <iframe
+          src={`${githubUrl}&type=star&count=true&size=large`}
+          frameBorder="0"
+          scrolling="0"
+          width="160px"
+          height="30px"
+        />
+        <iframe
+          src={`${githubUrl}&type=fork&count=true&size=large`}
+          frameBorder="0"
+          scrolling="0"
+          width="158px"
+          height="30px"
+        />
+//they went under the render function in home.jsx, they drastically slowed things down (3/6/18)
+// const in home included github so here it is github
