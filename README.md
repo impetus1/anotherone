@@ -1,6 +1,8 @@
 # Webpage for florida free appliance pickup
 
 MIT · [Ivan Rojas ](http://floridafreeappliancepickup.com)
+<br>
+
 For the uninitiated--
 a major issue creating spas in 2017-18 was the problem of seamless integration of sidebars(not using material) with a regular site. Jquery is excellent for this in that the pages containing snippets of html(jsx) were just blocks. It's easy to get involved with xpath in jquery so as to differentiate react containers from components but the problem is simple: for each component, react-dom appoints a href link to them and gives them state. 
 Jquery then just has to read state, handle lifecycle for the sidebar, and return a condition as a for loop subroutine to provide an updated 'block' for state change, for the href. 
